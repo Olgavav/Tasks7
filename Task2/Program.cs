@@ -60,7 +60,7 @@ bool IsIndexExists(int[,] array, int m, int n)
 {
     if(m < array.GetLength(0) &&
     n < array.GetLength(1) &&
-    m >= 0 && m >=0)
+    m >= 0 && n >=0)
     {
         return true;
     }
